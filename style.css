@@ -11,11 +11,25 @@ body {
 }
 
 h1 {
+    position: fixed;
+    left: 50%;
+    transform: translate(-50%, 0%);
     text-align: center;
-    margin-top: 25px;
+    padding-left: 2.2rem;
+    padding-right: 2.2rem;
+    top: 0;
+    margin-top: 0;
     margin-bottom: 15px;
     font-size: 40px;
     letter-spacing: 5px;
+    background: rgba(252, 255, 68, 0.8);
+}
+
+.fas { 
+    font-size: 40px; 
+    position: fixed;
+    right: 10px;
+    top: 0;
 }
 
 /* Loader */
@@ -48,8 +62,15 @@ h1 {
 /* Media Query: Large smartphones */
 
 @media screen and (max-width: 600px) {
+
     h1 {
         font-size: 20px;
+        width: 78.5%;
+    }
+
+    .fas {
+        font-size: 20px;
+        padding: 0.2rem;
     }
 
     .image-container {
