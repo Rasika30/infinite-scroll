@@ -12,6 +12,7 @@ body {
 
 h1 {
     position: fixed;
+    width: max-content;
     left: 50%;
     transform: translate(-50%, 0%);
     text-align: center;
