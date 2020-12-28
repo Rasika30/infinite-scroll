@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Pangolin&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC:wght@700&display=swap');
 
 html {
     box-sizing: border-box;
@@ -6,7 +6,7 @@ html {
 
 body {
     margin: 0;
-    font-family: 'Pangolin', cursive;
+    font-family: 'Amatic SC', cursive;
     background: whitesmoke;
 }
 
@@ -26,10 +26,16 @@ h1 {
 }
 
 .fas { 
-    font-size: 40px; 
+    color: rgb(85, 81, 81);
+    font-size: 38px; 
     position: fixed;
-    right: 10px;
-    top: 0;
+    right: 0.6rem;
+    top: 0.4rem;
+}
+
+.fas:hover {
+    cursor: pointer;
+    filter: brightness(120%);
 }
 
 /* Loader */
@@ -65,12 +71,16 @@ h1 {
 
     h1 {
         font-size: 20px;
-        width: 78.5%;
+        width: 100%;
+        left: 0;
+        padding-left: 0;
     }
 
     .fas {
         font-size: 20px;
         padding: 0.2rem;
+        right: 0;
+        top:0;
     }
 
     .image-container {
